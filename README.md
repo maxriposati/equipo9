@@ -52,41 +52,27 @@ Los tipos de usuarios que debe manejar el sistema son administrador, usuario emp
 Un usuario nómina deberá estar en la capacidad de: 
 
     + Crear empleados con su información básica y la fecha en la que ingresó. 
-
     + Ingresar la información salarial de los empleados (nómina) de los empleados. 
-
     + Aprobar/rechazar permisos. Los permisos deben ser remunerados (se pagan los días ausentes) o no remunerados (no se pagan los días ausentes). 
-
     + Aprobar/rechazar vacaciones 
-
     + Generar los siguientes reportes: 
-
     + Empleados que devengan más de un salario X. 
-
     + Empleados que devengan menos de un salario X. 
 
 Un usuario empleado debe estar en la capacidad de: 
 
     + Gestionar su información básica (nombre, apellidos, teléfono, número de cédula). 
-
     + Solicitar vacaciones. Solo puede solicitar 15 días calendario durante el año y no son acumulables. 
-
     + Descargar reporte de pago indicando el mes. 
-
     + Solicitar certificados laborales. 
-
     + Solicitar vacaciones indicando la fecha. 
-
     + Solicitar permisos no remunerados. 
-
- 
 
 Un administrador se encarga de gestionar los usuarios de nómina y empleados, además ejerce control total de la plataforma. 
 
 Notas: 
 
     + Solo se van a tener en cuenta los pagos mensuales de salario. 
-
     + Las vacaciones se tendrán en cuenta como si la persona siguiese trabajando (remuneradas). 
 
 Notas: 
@@ -94,13 +80,9 @@ Notas:
 Los datos suministrados por los usuarios deben cumplir la política de privacidad de datos vigente, es decir las contraseñas de los usuarios deben almacenarse de forma cifrada y la conexión al servidor debe realizarse de forma segura. 
 
     + La base de datos debe ser no relacional. 
-
     + Se debe utilizar una arquitectura desacoplada, es decir, una API back end y un front end que consuma dicha API. 
-
     + La API back end debe estar desarrollada en Express.js 
-
     + El front end debe estar desarrollado en React.js 
-
     + Se debe utilizar Bootstrap como librería CSS  para manejar los estilos de su aplicación. 
 </p>
 FECHA: Noviembre de 2021
