@@ -2,7 +2,7 @@
 ## MISIONTIC 2022 - UNIVERSIDAD DEL NORTE
 Final Project: Ciclo 4 Grupo 24
 
-<img src="static/images/ball_nine_xs.jpg"><h1>Equipo 9</h1>
+<img src="NIneTeamLogo.jpg"><h1>Equipo 9</h1>
 
 Metodologia: Scrum
 
