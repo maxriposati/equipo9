@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Routes, Route} from "react-router-dom"
+import  { Redirect } from 'react-router-dom'
+import { Col, Container, Row } from 'react-bootstrap'
+import { Dashboard } from './components/Dashboard/Dashboard'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header'
+import { Menu } from './components/Menu/Menu'
+import { Applications } from './pages/Applications'
+import { Login } from './pages/Login'
+import { Olvido } from './pages/Olvido'
+import {Home } from './pages/Home'
+
+
+export const App = () => {
+    return (
+            <Routes>
+            <Route path="/" element={<Home />} />      
+            <Route path="/login" element={<Login />} />
+            <Route path="/olvido" element={<Olvido />} />
+            <Route
+            path="/app/*"
+            element={
+              <React.Suspense fallback={<>...</>}>
+                <Applications />
+              </React.Suspense>
+            }
+          />  
+        </Routes>
+
+        
+    )
 }
 
-export default App;
+
