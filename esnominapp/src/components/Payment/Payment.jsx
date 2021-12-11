@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 export const Payment = (props) => {
@@ -29,3 +30,20 @@ export const Payment = (props) => {
         </div>
     )
 }
+=======
+import React from 'react'
+
+export const Payment = (props) => {
+    return (
+        <div>
+            <p>
+                pago {props.cedula}... <br />
+                mes {props.name}<br />
+                añon {props.lastname}<br />
+
+                valor a pagar {props.lastname}<br />
+            </p>
+        </div>
+    )
+}
+>>>>>>> c9fc84c6575ea9f9b046ab93b76d2e798dc56c19

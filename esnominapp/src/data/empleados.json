@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "empleados":[
         {"id": 1, "name": "React desde cero", "teacher": "Pedro Perez"},
@@ -5,4 +6,13 @@
         {"id": 3, "name": "React desde cero", "teacher": "Juana Perez"},
         {"id": 4, "name": "Drupal 8 desde cero", "teacher": "Ana Gaviria"}
     ]   
+=======
+{
+    "empleados":[
+        {"id": 1, "name": "React desde cero", "teacher": "Pedro Perez"},
+        {"id": 2, "name": "Drupal 8 desde cero", "teacher": "Gabriel Gaviria"},
+        {"id": 3, "name": "React desde cero", "teacher": "Juana Perez"},
+        {"id": 4, "name": "Drupal 8 desde cero", "teacher": "Ana Gaviria"}
+    ]   
+>>>>>>> c9fc84c6575ea9f9b046ab93b76d2e798dc56c19
 }

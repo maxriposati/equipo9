@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 export const Certificado = (props) => {
@@ -18,3 +19,16 @@ export const Certificado = (props) => {
             </p>
     )
 }
+=======
+import React from 'react'
+
+export const Certificado = (props) => {
+    return (
+            <p>
+                lorem {props.cedula}Ipsum... <br />
+                datos datos {props.name}<br />
+                contenido dedede {props.lastname}<br />
+            </p>
+    )
+}
+>>>>>>> c9fc84c6575ea9f9b046ab93b76d2e798dc56c19
